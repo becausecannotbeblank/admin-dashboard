@@ -16,11 +16,14 @@ body{
     align-items: start;
     padding-left: 1rem;
     width: 20vw;
+    min-width: 200px;
     height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     background-color: dodgerblue;
     gap: 1rem;
+    box-shadow: rgba(100, 100, 100, 0.25) 3px 3px 3px;
+    z-index: 6;
 }
 
 .page-container {
@@ -71,6 +74,10 @@ body{
 
 .app-grid > div {
     background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 100, 0.25) 0px 3px 3px;
+    box-sizing: border-box;
+    border-left: 10px solid orange;
 }
 
 .content1-container {
@@ -117,6 +124,8 @@ body{
 
 .announce-grid > div {
     background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 100, 0.25) 0px 3px 3px;
 }
 
 .trending-grid{
@@ -130,10 +139,12 @@ body{
 
 .trending-grid > div {
     background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 100, 0.25) 0px 3px 3px;
 }
 
 h3{
-    padding: 0;
+    padding-bottom: 1rem;
     margin:0;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -142,4 +153,11 @@ p{
     color:gray;
     padding: 0;
     margin:0;
+}
+
+#search{
+    background-color: gainsboro;
+    border-radius: 10px;
+    border-style: none;
+    width: 25vw;
 }
